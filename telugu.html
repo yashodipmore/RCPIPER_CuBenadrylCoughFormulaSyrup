@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>బెనడ్రిల్ దగ్గు ఫార్ములా సిరప్</title>
+<link rel="stylesheet" href="style.css">
+<title>బెనడ్రిల్ దగ్గు ఫార్ములా సిరప్</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <h1 class="main-title">బెనడ్రిల్ దగ్గు ఫార్ములా సిరప్ 150 మి.లీ.</h1>
+            <p class="subtitle">మీ విశ్వసనీయ దగ్గు ఉపశమనం కోసం పరిష్కారం.</p>
+        </div>
+        
+    </header>
+    
+
+    <!-- Navbar -->
+    <nav>
+        <div class="navbar">
+            <button class="menu-toggle" id="menu-toggle">
+                &#9776; <!-- Hamburger Icon -->
+            </button>
+            <ul class="menu" id="menu">
+                <li><a href="#product-introduction">ఉత్పత్తి పరిచయం</a></li>
+                <li><a href="#benefits">ప్రయోజనాలు</a></li>
+                <li><a href="#when-to-take">ఎప్పుడు తీసుకోవాలి</a></li>
+                <li><a href="#how-to-take">ఎలా తీసుకోవాలి</a></li>
+                <li><a href="#common-side-effects">సాధారణ పక్క ప్రభావాలు</a></li>
+                <li><a href="#when-to-avoid">ఎప్పుడు నివారించాలి</a></li>
+                <li><a href="#what-to-do">ఏం చేయాలి</a></li>
+                <li><a href="#what-not-to-do">ఏం చేయకూడదు</a></li>
+            </ul>
+            
+        </div>
+    </nav>
+    <script>
+        document.getElementById("menu-toggle").addEventListener("click", function() {
+            var menu = document.getElementById("menu");
+            menu.classList.toggle("show");
+        });
+    </script>
+    
+
+    <!-- Sections -->
+  <!-- Sections -->
+  <section id="product-introduction">
+    <h1>ఉత్పత్తి పరిచయం</h1>
+    
+    <p><strong>వర్గం:</strong> మ్యూకోలిటిక్ మరియు యాంటీహిస్టమినిక్</p>
+    <p><strong>కంటెంట్:</strong></p>
+    <ul>
+        <li>డిఫెయిన్‌హైడ్రమైన్ హైడ్రోక్లోరైడ్ ఐ.పి. - 14.08 మి.గ్రా</li>
+        <li>అమోనియం క్లోరైడ్ ఐ.పి. - 138 మి.గ్రా</li>
+        <li>సోడియం సిట్రేట్ ఐ.పి. - 57.03 మి.గ్రా</li>
+        <li>ఈథనాల్ (95%) ఐ.పి. - 0.2625 మి.లీ. (ఈథనాల్ ఐ.పి. 5.0% వి/వి అని వ్యక్తీకరించబడింది)</li>
+        <li><strong>రంగు:</strong> కర్మోసిన్, సన్‌సెట్ యెల్లో ఫీసిఎఫ్, ఎరిథ్రోసిన్, కరమెల్ ఎన్‌ఎఫ్</li>
+    </ul>
+    <p><strong>శెల్ఫ్ లైఫ్:</strong> 720 రోజులు</p>
+    <p><strong> నిల్వ చేయడం:</strong> 30°C కంటే తక్కువ</p>
+    <p><strong>అడప నిమించు:</strong> లేదు</p>
+    <p><strong>ఎంఆర్‌పి:</strong> 155 రూపాయలు</p>
+    <p><strong>ఉత్పత్తి దేశం:</strong> భారతదేశం</p>
+    <p><strong>మార్కెట్ చేసినది:</strong> జాన్సన్ & జాన్సన్ ప్రైవేట్ లిమిటెడ్</p>
+    <!-- Image Carousel -->
+    <div class="image-gallery">
+        <div class="carousel">
+            <div class="carousel-track">
+                <img src="cupsyrup1.png" alt="Cough Syrup Bottle 1" class="carousel-img">
+                <img src="cupsyrup2.png" alt="Cough Syrup Bottle 2" class="carousel-img">
+                <img src="cupsyrup3.png" alt="Cough Syrup Bottle 3" class="carousel-img">
+            </div>
+        </div>
+        <div class="carousel-controls">
+            <span class="prev">&lt;</span>
+            <span class="next">&gt;</span>
+        </div>
+    </div>
+</section>
+
+<script>
+    const track = document.querySelector('.carousel-track');
+const slides = Array.from(track.children);
+const nextButton = document.querySelector('.next');
+const prevButton = document.querySelector('.prev');
+let currentIndex = 0;
+
+// Move to the next slide
+nextButton.addEventListener('click', () => {
+    currentIndex = (currentIndex + 1) % slides.length;
+    track.style.transform = `translateX(-${currentIndex * 100}%)`;
+});
+
+// Move to the previous slide
+prevButton.addEventListener('click', () => {
+    currentIndex = (currentIndex - 1 + slides.length) % slides.length;
+    track.style.transform = `translateX(-${currentIndex * 100}%)`;
+});
+
+</script>
+    
+    
+<section id="benefits">
+    <h1>బెనడ్రిల్ సిరప్ యొక్క ప్రయోజనాలు</h1>
+     
+    <p>బెనడ్రిల్ సిరప్ దగ్గుకు చికిత్సలో ఉపయోగించబడుతుంది. ఇది రన్నీ నోస్, ఉలుకలు, నీటి కళ్ల వంటి అలర్జీ లక్షణాల నుంచి ఉపశమనం అందిస్తుంది. ఇది ముక్కు, ట్రాకియా మరియు ఊపిరితిత్తులలో మ్యూకస్‌ను సన్నని చేస్తుంది, తద్వారా దగ్గు రావడం సులభం అవుతుంది.</p>
+</section>
+
+    <!-- Image Gallery with Animations -->
+    <div class="benefits-gallery">
+        <div class="benefit-card">
+            <img src="benefit1.jpg" alt="Benefit 1" class="benefit-img">
+            <p>ప్రయోజనం 1</p>
+        </div>
+        <div class="benefit-card">
+            <img src="benefit3.jpg" alt="Benefit 2" class="benefit-img">
+            <p>ప్రయోజనం 2</p>
+        </div>
+        <div class="benefit-card">
+            <img src="benefit2.jpg" alt="Benefit 3" class="benefit-img">
+            <p>ప్రయోజనం 3</p>
+        </div>
+        <div class="benefit-card">
+            <img src="benefit4.jpg" alt="Benefit 4" class="benefit-img">
+            <p>ప్రయోజనం 4</p>
+        </div>
+        <div class="benefit-card">
+            <img src="benefit5.jpg" alt="Benefit 5" class="benefit-img">
+            <p>ప్రయోజనం 5</p>
+        </div>
+    </div>
+</section>
+
+    
+
+<section id="when-to-take">
+    <h1>బెనడ్రిల్ సిరప్ ఎప్పుడు తీసుకోవాలి</h1>
+    <audio controls>
+        <source src="when to take.wav" type="audio/mp3">
+        మీ బ్రౌజర్ ఆడియో ట్యాగ్‌ను మద్దతు ఇవ్వడం లేదు.
+    </audio>
+    <p>ఇది దగ్గును తగ్గించడానికి మరియు గొంతు మరియు ఊపిరితిత్తుల నుండి మ్యూకస్‌ను స్వచ్చంగా చేయడంలో సహాయపడుతుంది.</p>
+
+    <h2>దగ్గును చికిత్స చేయడానికి:</h2>
+    <p>దగ్గు అనేది ఏదో పటిష్టంగా, బలంగా బయటకు నెట్టి వాయువు, ఇది గొంతు లేదా వాయువుల (గొంతులో ముదురు, తెలుపు, ఘన ద్రవ మాదిరి విషయం) లో ఉన్న మ్యూకస్‌ను తుడిచిపెట్టడానికి సహాయపడుతుంది లేదా వాయువుల ద్వారా శరీరానికి వచ్చిన ధూళి. ఇది కొన్ని రోగాల (అస్మా వంటి) లేదా అలర్జీల వల్ల ఎక్కువగా జరుగుతుంటే, అది అసౌకర్యంగా ఉంటుంది.</p>
+
+    <p>బెనడ్రిల్ సిరప్ మందు మందమైన మ్యూకస్‌ను విడుదల చేయడంలో సహాయపడుతుంది మరియు దాని అంటుకట్టును తగ్గిస్తుంది, దీంతో దగ్గు రావడం సులభం అవుతుంది. దీనితో, వాయువు లోనికి మరియు బయటికీ వెళ్ళడం సులభం అవుతుంది. ఇది నీటి కళ్ల, ఉలుకలు, రన్నీ నోస్ లేదా గొంతు ఫ్లామేషన్ వంటి అలర్జీ లక్షణాలను కూడా ఉపశమనం కలిగిస్తుంది మరియు మీ రోజు రోజుల పనులను సులభంగా నిర్వహించడంలో సహాయపడుతుంది. ఈ మందును తీసుకోవడం వల్ల మీరు మీ లక్షణాలను మరిచిపోకుండా, ఎక్కువగా ఆందోళన చెందకుండా, మీ జీవితాన్ని మరింత స్వేచ్ఛగా గడిపించవచ్చు.</p>
+</section>
+
+    
+
+<section id="how-to-take">
+    <h1>బెనడ్రిల్ సిరప్ ఎలా తీసుకోవాలి</h1>
+     
+    
+    <p>బెనడ్రిల్ సిరప్ యొక్క సరైన మోతాదును మరియు వినియోగాన్ని అనుసరించడానికి ఈ మార్గదర్శకాల‌ను పాటించండి:</p>
+    
+    <h2>మోతాదుల సిఫారసులు:</h2>
+    <ul>
+        <li>4-6 సంవత్సరాల పిల్లలకు: అర్ధ స్పూన్ (2.5 మి.లీ)</li>
+        <li>6-12 సంవత్సరాల పిల్లలకు: ఒక స్పూన్ (5 మి.లీ)</li>
+        <li>వయోస్కులు (12 సంవత్సరాలు మరియు పై): రెండు స్పూన్లు (10 మి.లీ)</li>
+    </ul>
+
+    <h2>అనుప్రయోగ సూచనలు:</h2>
+    <ol>
+        <li>బెనడ్రిల్ సిరప్‌ను మీ డాక్టర్ సూచించిన విధంగా ఆహారం ఉన్నా లేదా లేకపోయినా తీసుకోవచ్చు.</li>
+        <li>ప్రతి వాడకానికి ముందు బాటిల్‌ను బాగా కలపండి. సిరప్‌తో ఇచ్చిన కొలత కప్పు ఉపయోగించి మోతాదును కొలవండి.</li>
+        <li>సిరప్‌ను మోక్షానికి తేలికగా ఉండేలా నీటితో తీసుకోండి.</li>
+    </ol>
+
+    <h2>మోతాదుల పరిమితులు:</h2>
+    <p>
+        <strong>చెతువుల నోటీసు:</strong> 4 సంవత్సరాల కింద పిల్లలకు ఈ మందు ఇవ్వకూడదు.
+        రోజువారీ మోతాదు ఈ పరిమితులను మించకూడదు:
+    </p>
+    <ul>
+        <li>4-6 సంవత్సరాల పిల్లలకు: రోజుకు గరిష్టం 15 మి.లీ (3 మోతాదులు)</li>
+        <li>6-12 సంవత్సరాల పిల్లలకు: రోజుకు గరిష్టం 30 మి.లీ (6 మోతాదులు)</li>
+        <li>వయోస్కులు (12 సంవత్సరాలు మరియు పై): రోజుకు గరిష్టం 60 మి.లీ (6 మోతాదులు)</li>
+    </ul>
+
+    <h2>అవధి:</h2>
+    <p>ఈ మందును ప్రతి 4 గంటలకు లేదా మీ డాక్టర్ సూచించిన విధంగా తీసుకోండి.</p>
+</section>
+
+    
+<section id="side-effects">
+    <h1>సాధారణ దుష్ప్రభావాలు</h1>
+    <div class="side-effects-grid">
+        <div class="side-effect-card">
+            <img src="side1.jpg" alt="ఊపిరితిత్తుల నొప్పి" class="side-effect-img">
+            <p>ఊపిరితిత్తుల నొప్పి</p>
+        </div>
+        <div class="side-effect-card">
+            <img src="side2.jpg" alt="గIDDINESS" class="side-effect-img">
+            <p>విసుగులు</p>
+        </div>
+        <div class="side-effect-card">
+            <img src="side3.jpg" alt="తడవడం" class="side-effect-img">
+            <p>తడవడం</p>
+        </div>
+        <div class="side-effect-card">
+            <img src="side4.jpg" alt="చాలా సమన్వయం లేదు" class="side-effect-img">
+            <p>చాలా సమన్వయం లేదు (కేంద్రితమై పోవడం కష్టంగా మారుతుంది)</p>
+        </div>
+        <div class="side-effect-card">
+            <img src="benefit1.jpg" alt="ఊపిరితిత్తుల స్రావం" class="side-effect-img">
+            <p>ఊపిరితిత్తుల స్రావం (నోటి నుండి దట్టమైన ద్రవం బయటకు వస్తోంది)</p>
+        </div>
+        <div class="side-effect-card">
+            <img src="benefit2.jpg" alt="అలర్జిక్ ప్రతిస్పందన" class="side-effect-img">
+            <p>అలర్జిక్ ప్రతిస్పందన</p>
+        </div>
+    </div>
+    <p class="note">ఈ దుష్ప్రభావాల్లో ఎక్కువ భాగం తాత్కాలికం మరియు యాధాపరి వైద్య సహాయం అవసరం లేదు. అవి కొనసాగితే లేదా మీకు ఆందోళన కలిగిస్తే, మీ డాక్టర్‌ను సంప్రదించండి.</p>
+</section>
+
+    
+    
+<section id="what-to-do">
+    <h1>ఏం చేయాలి</h1>
+     
+    <ul>
+        <li><strong>మీ డాక్టర్‌కు తెలియజేయండి:</strong> మీరు తీసుకుంటున్న ఇతర మందుల గురించి మీ డాక్టర్‌కు తెలియజేయండి, కొన్ని ప్రతికూలంగా పరస్పర చర్య కలిగి ఉండవచ్చు.</li>
+        <li><strong>తనికితనం కాపాడండి:</strong> గొంతు ఊపిరితిత్తి స్రావాన్ని తగ్గించేందుకు చాలా ద్రవాలు తాగండి.</li>
+        <li><strong>మీ డాక్టర్‌ను సంప్రదించండి:</strong> మీరు యాక్టివ్‌గా కిడ్నీ లేదా జీర్ణక్రియ వ్యాధి ఉంటే, గర్భవతి లేదా పాలిస్తున్నట్లయితే మీ డాక్టర్‌కు తెలియజేయండి.</li>
+        <li><strong>రక్తంలో గ్లూకోజ్‌ను పర్యవేక్షించండి:</strong> మీరు చక్కర వ్యాధితో బాధపడుతున్నట్లయితే, ఈ మందును తీసుకుంటున్నప్పుడు మీ రక్త గ్లూకోజ్‌ను క్రమం తప్పకుండా తనిఖీ చేయండి.</li>
+        <li><strong>మీ చరిత్రను పంచుకోండి:</strong> మీకు థైరాయిడ్ లేదా గుండె వ్యాధి చరిత్ర ఉన్నట్లయితే మీ డాక్టర్‌కు తెలియజేయండి.</li>
+        <li><strong>ప్రతిస్పందనలు పర్యవేక్షించండి:</strong> మీ దగ్గు ఒక వారం పాటు కొనసాగితే లేదా జ్వరం, దురద లేదా నిరంతర తలనొప్పి ఉన్నప్పుడు Benadryl సిరప్ తీసుకోవడం ఆపండి.</li>
+    </ul>
+</section>
+
+    
+<section id="what-not-to-do">
+    <h1>ఏం చేయకూడదు</h1>
+    <ul>
+        <li><strong>మందును ఆపకండి:</strong> లక్షణాలు తిరిగి వస్తాయి లేదా తీవ్రత పెరుగుతుంది కాబట్టి, మీ డాక్టర్‌ను సంప్రదించకుండా ఈ మందును ఉపయోగించడం ఆపకండి.</li>
+        <li><strong>స్వయంగా మందు తీసుకోవడం మానండి:</strong> డాక్టర్‌ను సంప్రదించకుండా ఈ మందును మీతో తీసుకోవడం లేదా ఇంకొకరికి సూచించడం మానండి.</li>
+    </ul>
+</section>
+
+    <footer>
+        <p>&copy; 2024 Yashodip More - NonCSCoder. All rights reserved.</p>
+    </footer>
+    <script>
+        // JavaScript for scroll animations
+document.addEventListener("DOMContentLoaded", function () {
+    const sections = document.querySelectorAll("section");
+
+    const options = {
+        root: null,
+        rootMargin: "0px",
+        threshold: 0.1,
+    };
+
+    const observer = new IntersectionObserver((entries, observer) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                entry.target.classList.add("fade-in");
+                observer.unobserve(entry.target);
+            }
+        });
+    }, options);
+
+    sections.forEach(section => {
+        observer.observe(section);
+    });
+});
+
+    </script>
+
+</body>
+</html>

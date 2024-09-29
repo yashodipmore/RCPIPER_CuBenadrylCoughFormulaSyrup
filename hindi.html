@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>बेनाड्रिल कफ फॉर्मूला सिरप</title>
+<link rel="stylesheet" href="style.css">
+<title>बेनाड्रिल कफ फॉर्मूला सिरप</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <h1 class="main-title">बेनाड्रिल कफ फॉर्मूला सिरप 150 मि.ली.</h1>
+            <p class="subtitle">खांसी के राहत के लिए आपका विश्वसनीय समाधान।</p>
+        </div>
+    </header>
+    
+    
+
+    <!-- Navbar -->
+    <nav>
+        <div class="navbar">
+            <button class="menu-toggle" id="menu-toggle">
+                &#9776; <!-- Hamburger Icon -->
+            </button>
+            <ul class="menu" id="menu">
+                <li><a href="#product-introduction">उत्पाद परिचय</a></li>
+                <li><a href="#benefits">लाभ</a></li>
+                <li><a href="#when-to-take">कब लें</a></li>
+                <li><a href="#how-to-take">कैसे लें</a></li>
+                <li><a href="#common-side-effects">सामान्य साइड इफेक्ट्स</a></li>
+                <li><a href="#when-to-avoid">कब बचें</a></li>
+                <li><a href="#what-to-do">क्या करें</a></li>
+                <li><a href="#what-not-to-do">क्या न करें</a></li>
+            </ul>
+            
+        </div>
+    </nav>
+    <script>
+        document.getElementById("menu-toggle").addEventListener("click", function() {
+            var menu = document.getElementById("menu");
+            menu.classList.toggle("show");
+        });
+    </script>
+    
+
+    <!-- Sections -->
+  <!-- Sections -->
+  <section id="product-introduction">
+    <h1>उत्पाद परिचय</h1>
+    <audio controls>
+        <source src="product intro benadryl.wav" type="audio/mp3">
+        Your browser does not support the audio tag.
+    </audio>
+    <p><strong>श्रेणी:</strong> म्यूकोलाइटिक और एंटीहिस्टामाइनिक</p>
+<p><strong>सामग्री:</strong></p>
+<ul>
+    <li>डायफेनहाइड्रामाइन हाइड्रोक्लोराइड I.P. - 14.08 मिग्रा</li>
+    <li>अमोनियम क्लोराइड I.P. - 138 मिग्रा</li>
+    <li>सोडियम सिट्रेट I.P. - 57.03 मिग्रा</li>
+    <li>इथेनॉल (95%) I.P. - 0.2625 मिली (इथेनॉल I.P. 5.0% v/v के रूप में व्यक्त किया गया)</li>
+    <li><strong>रंग:</strong> कार्मोइसिन, सनसेट येलो FCF, एरिथ्रोसिन, कैरेमल NF</li>
+</ul>
+<p><strong>शेल्फ लाइफ:</strong> 720 दिन</p>
+<p><strong>भंडारण:</strong> 30°C से नीचे</p>
+<p><strong>आदत बनाने वाला:</strong> नहीं</p>
+<p><strong>MRP:</strong> 155 रुपये</p>
+<p><strong>उत्पत्ति का देश:</strong> भारत</p>
+<p><strong>बाजार द्वारा:</strong> जॉनसन & जॉनसन प्रा. लि.</p>
+
+    <!-- Image Carousel -->
+    <div class="image-gallery">
+        <div class="carousel">
+            <div class="carousel-track">
+                <img src="cupsyrup1.png" alt="Cough Syrup Bottle 1" class="carousel-img">
+                <img src="cupsyrup2.png" alt="Cough Syrup Bottle 2" class="carousel-img">
+                <img src="cupsyrup3.png" alt="Cough Syrup Bottle 3" class="carousel-img">
+            </div>
+        </div>
+        <div class="carousel-controls">
+            <span class="prev">&lt;</span>
+            <span class="next">&gt;</span>
+        </div>
+    </div>
+</section>
+
+<script>
+    const track = document.querySelector('.carousel-track');
+const slides = Array.from(track.children);
+const nextButton = document.querySelector('.next');
+const prevButton = document.querySelector('.prev');
+let currentIndex = 0;
+
+// Move to the next slide
+nextButton.addEventListener('click', () => {
+    currentIndex = (currentIndex + 1) % slides.length;
+    track.style.transform = `translateX(-${currentIndex * 100}%)`;
+});
+
+// Move to the previous slide
+prevButton.addEventListener('click', () => {
+    currentIndex = (currentIndex - 1 + slides.length) % slides.length;
+    track.style.transform = `translateX(-${currentIndex * 100}%)`;
+});
+
+</script>
+    
+    
+<section id="benefits">
+    <h1>बेनाड्रिल सिरप के लाभ</h1>
+    
+    <p>बेनाड्रिल सिरप का उपयोग खांसी के उपचार में किया जाता है। यह नाक बहने, छींकने और पानी भरी आँखों जैसे एलर्जी के लक्षणों से राहत प्रदान करता है। यह नाक, श्वासनली और फेफड़ों में बलगम को पतला करता है, जिससे खांसी लेना आसान होता है।</p>
+</section>
+
+    
+    <!-- Image Gallery with Animations -->
+    <div class="benefits-gallery">
+        <div class="benefit-card">
+            <img src="benefit1.jpg" alt="Benefit 1" class="benefit-img">
+            <p>लाभ 1</p>
+        </div>
+        <div class="benefit-card">
+            <img src="benefit3.jpg" alt="Benefit 2" class="benefit-img">
+            <p>लाभ 2</p>
+        </div>
+        <div class="benefit-card">
+            <img src="benefit2.jpg" alt="Benefit 3" class="benefit-img">
+            <p>लाभ 3</p>
+        </div>
+        <div class="benefit-card">
+            <img src="benefit4.jpg" alt="Benefit 4" class="benefit-img">
+            <p>लाभ 4</p>
+        </div>
+        <div class="benefit-card">
+            <img src="benefit5.jpg" alt="Benefit 5" class="benefit-img">
+            <p>लाभ 5</p>
+        </div>
+    </div>
+</section>
+
+    
+
+<section id="when-to-take">
+    <h1>बेनाड्रिल सिरप कब लें</h1>
+     
+    <p>यह खांसी को कम करने और गले और फेफड़ों से बलगम साफ करने में मदद करता है।</p>
+
+    <h2>खांसी का इलाज करने के लिए:</h2>
+    <p>खांसी एक अचानक, जोरदार हवा का उत्सर्जन है जो गले या वायुमार्ग (गले में चिपचिपा, सफेद, ठोस द्रव जैसे पदार्थ) या धूल से बलगम साफ करने में मदद करता है, जो हवा के माध्यम से नाक से शरीर में गया है। यदि यह कुछ बीमारियों (जैसे अस्थमा) या एलर्जी के कारण अधिक बार हो रहा है, तो यह परेशानी का कारण बन सकता है।</p>
+
+    <p>बेनाड्रिल सिरप गाढ़े बलगम को मुक्त करने और उसकी चिपचिपाहट को कम करने में मदद करता है, जिससे खांसी आना आसान होता है। इससे हवा का आना-जाना भी आसान हो जाता है। यह एलर्जी के लक्षणों जैसे कि पानी भरी आंखें, छींक, बहती नाक, या गले में सूजन से भी राहत देगा, और आपको अपने दैनिक कार्यों को अधिक आसानी से करने में मदद करेगा। इस दवा का सेवन करने से आपको अपनी जीवनशैली को अधिक स्वतंत्रता से जीने की अनुमति मिलती है बिना अपने लक्षणों को राहत देने वाली चीजों के बारे में बहुत चिंता किए।</p>
+</section>
+
+    
+
+<section id="how-to-take">
+    <h1>बेनाड्रिल सिरप कैसे लें</h1>
+    
+    
+    <p>बेनाड्रिल सिरप की सही खुराक और प्रशासन के लिए इन दिशानिर्देशों का पालन करें:</p>
+    
+    <h2>खुराक की सिफारिशें:</h2>
+    <ul>
+        <li>4-6 वर्ष के बच्चों के लिए: आधा चम्मच (2.5 मिलीलीटर)</li>
+        <li>6-12 वर्ष के बच्चों के लिए: एक चम्मच (5 मिलीलीटर)</li>
+        <li>वयस्कों के लिए (12 वर्ष और उससे अधिक): दो चम्मच (10 मिलीलीटर)</li>
+    </ul>
+
+    <h2>प्रशासन संबंधी निर्देश:</h2>
+    <ol>
+        <li>बेनाड्रिल सिरप को खाने के साथ या बिना, आपके डॉक्टर के निर्देशानुसार लिया जा सकता है।</li>
+        <li>प्रत्येक उपयोग से पहले बोतल को अच्छी तरह हिलाएँ। सिरप के साथ दी गई मापने की कप को उपयोग करके खुराक को मापें।</li>
+        <li>सहजता से निगलने के लिए सिरप को पानी के साथ लें।</li>
+    </ol>
+    
+    <h2>खुराक की सीमाएं:</h2>
+    <p>
+        <strong>चेतावनी:</strong> यह दवा 4 वर्ष से कम उम्र के बच्चों को नहीं दी जानी चाहिए।
+        सुनिश्चित करें कि दैनिक खुराक निम्नलिखित सीमाओं को पार नहीं करती है:
+    </p>
+    <ul>
+        <li>4-6 वर्ष के बच्चों के लिए: अधिकतम 15 मिलीलीटर प्रति दिन (3 खुराक)</li>
+        <li>6-12 वर्ष के बच्चों के लिए: अधिकतम 30 मिलीलीटर प्रति दिन (6 खुराक)</li>
+        <li>वयस्कों के लिए (12 वर्ष और उससे अधिक): अधिकतम 60 मिलीलीटर प्रति दिन (6 खुराक)</li>
+    </ul>
+    
+    <h2>आवृत्ति:</h2>
+    <p>दवा को हर 4 घंटे में लें या अपने डॉक्टर के निर्देशानुसार लें।</p>
+    
+    </section>
+    
+
+    <section id="side-effects">
+        <h1>सामान्य दुष्प्रभाव</h1>
+        <div class="side-effects-grid">
+            <div class="side-effect-card">
+                <img src="side1.jpg" alt="पेट में दर्द" class="side-effect-img">
+                <p>पेट में दर्द</p>
+            </div>
+            <div class="side-effect-card">
+                <img src="side2.jpg" alt="चक्कर आना" class="side-effect-img">
+                <p>चक्कर आना</p>
+            </div>
+            <div class="side-effect-card">
+                <img src="side3.jpg" alt="निद्रा" class="side-effect-img">
+                <p>निद्रा</p>
+            </div>
+            <div class="side-effect-card">
+                <img src="side4.jpg" alt="खराब समन्वय" class="side-effect-img">
+                <p>खराब समन्वय (ध्यान केंद्रित करने में कठिनाई)</p>
+            </div>
+            <div class="side-effect-card">
+                <img src="benefit1.jpg" alt="नाक बहना" class="side-effect-img">
+                <p>नाक बहना (मुंह से गाढ़ा तरल बाहर निकलना)</p>
+            </div>
+            <div class="side-effect-card">
+                <img src="benefit2.jpg" alt="एलर्जिक रिएक्शन" class="side-effect-img">
+                <p>एलर्जिक रिएक्शन</p>
+            </div>
+        </div>
+        <p class="note">इनमें से अधिकांश दुष्प्रभाव अस्थायी होते हैं और इसके लिए किसी चिकित्सा ध्यान की आवश्यकता नहीं होती है। यदि वे बने रहते हैं या आप उनके बारे में चिंतित हैं, तो अपने डॉक्टर से परामर्श करें।</p>
+    </section>
+    
+    
+    
+    <section id="what-to-do">
+        <h1>क्या करें</h1>
+         
+        <ul>
+            <li><strong>अपने डॉक्टर को सूचित करें:</strong> अपने डॉक्टर को सभी अन्य दवाओं के बारे में बताएं जो आप ले रहे हैं, क्योंकि कुछ आपस में विपरीत प्रतिक्रिया कर सकते हैं।</li>
+            <li><strong>हाइड्रेटेड रहें:</strong> गले की जलन को कम करने में मदद के लिए पर्याप्त तरल पदार्थ पिएं।</li>
+            <li><strong>अपने डॉक्टर से परामर्श करें:</strong> अपने डॉक्टर को सूचित करें यदि आपके पास जिगर या किडनी की बीमारी है, आप गर्भवती हैं, या स्तनपान करा रही हैं।</li>
+            <li><strong>रक्त ग्लूकोज की निगरानी करें:</strong> यदि आपके पास मधुमेह है, तो इस दवा का सेवन करते समय अपने रक्त ग्लूकोज की नियमित जांच करें।</li>
+            <li><strong>अपना इतिहास साझा करें:</strong> यदि आपके पास थायरॉइड या हृदय रोग का इतिहास है तो अपने डॉक्टर को बताएं।</li>
+            <li><strong>लक्षणों की निगरानी करें:</strong> यदि आपकी खांसी एक सप्ताह से अधिक समय तक बनी रहती है, या यदि इसके साथ बुखार, चकत्ते, या लगातार सिरदर्द हो, तो बेनाड्रिल सिरप लेना बंद कर दें।</li>
+        </ul>
+    </section>
+    
+    
+    <section id="what-not-to-do">
+        <h1>क्या न करें</h1>
+         
+        <ul>
+            <li><strong>दवा बंद न करें:</strong> कभी भी अपने डॉक्टर से परामर्श किए बिना इस दवा का उपयोग बंद न करें, क्योंकि लक्षण फिर से उभर सकते हैं या और बिगड़ सकते हैं।</li>
+            <li><strong>स्वयं दवा से बचें:</strong> बिना डॉक्टर की सलाह के इस दवा को खुद न लें और न ही इसे किसी और को सुझाएं।</li>
+        </ul>
+    </section>
+    
+    <footer>
+        <p>&copy; 2024 Yashodip More - NonCSCoder. All rights reserved.</p>
+    </footer>
+    <script>
+        // JavaScript for scroll animations
+document.addEventListener("DOMContentLoaded", function () {
+    const sections = document.querySelectorAll("section");
+
+    const options = {
+        root: null,
+        rootMargin: "0px",
+        threshold: 0.1,
+    };
+
+    const observer = new IntersectionObserver((entries, observer) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                entry.target.classList.add("fade-in");
+                observer.unobserve(entry.target);
+            }
+        });
+    }, options);
+
+    sections.forEach(section => {
+        observer.observe(section);
+    });
+});
+
+    </script>
+
+</body>
+</html>

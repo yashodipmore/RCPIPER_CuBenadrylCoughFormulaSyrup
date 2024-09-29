@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Benadryl Cough Formula Syrup</title>
+    <link rel="stylesheet" href="style.css">
+    <title>Benadryl Cough Formula Syrup</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <h1 class="main-title">बेनाड्रील कफ फॉर्म्युला सिरप 150 मि.ली</h1>
+            <p class="subtitle">खोकल्यापासून मुक्त होण्यासाठी तुमचा विश्वासार्ह उपाय</p>
+        </div>
+    </header>
+    
+
+    <!-- Navbar -->
+    <nav>
+        <div class="navbar">
+            <button class="menu-toggle" id="menu-toggle">
+                &#9776; <!-- Hamburger Icon -->
+            </button>
+            <ul class="menu" id="menu">
+                <li><a href="#product-introduction">उत्पादन परिचय</a></li>
+                <li><a href="#benefits">फायदे</a></li>
+                <li><a href="#when-to-take">कधी घ्यायचे</a></li>
+                <li><a href="#how-to-take">कसे घ्यावे</a></li>
+                <li><a href="#common-side-effects">सामान्य साइड इफेक्ट्स</a></li>
+                <li><a href="#when-to-avoid"></a>कधी टाळावे</li>
+                <li><a href="#what-to-do"></a>काय करावे</li>
+                <li><a href="#what-not-to-do"></a>काय करू नये</li>
+            </ul>
+        </div>
+    </nav>
+    <script>
+        document.getElementById("menu-toggle").addEventListener("click", function() {
+            var menu = document.getElementById("menu");
+            menu.classList.toggle("show");
+        });
+    </script>
+    
+
+    <!-- Sections -->
+  <!-- Sections -->
+  <section id="product-introduction">
+    <h1>उत्पादन परिचय</h1>
+    <audio controls>
+        <source src="product intro benadryl.wav" type="audio/mp3">
+        Your browser does not support the audio tag.
+    </audio>
+    <p><strong>श्रेणी:</strong> म्युकोलिटिक आणि अँटीहिस्टामिनिक</p>
+    <p><strong>सामग्री:</strong></p>
+    <ul>
+        <li>डिफेनहायड्रॅमिन हायड्रोक्लोराइड I.P. - 14.08 मिग्रॅ</li>
+        <li>अमोनियम क्लोराईड I.P. - 138 मिग्रॅ</li>
+        <li>सोडियम सायट्रेट I.P. - 57.03 मिग्रॅ</li>
+        <li>इथेनॉल (95%) I.P. - 0.2625 मिली (इथानॉल I.P. 5.0% v/v म्हणून व्यक्त)</li>
+        <li><strong>रंग:</strong> Carmoisine, Sunset Yellow FCF, Erythrosine, Caramel NF</li>
+    </ul>
+    <p><strong>शेल्फ लाइफ:</strong> 720 दिवस</p>
+    <p><strong>स्टोरेज:</strong> 30°C च्या खाली</p>
+    <p><strong>सवय लावणे:</strong> नाही</p>
+    <p><strong>MRP:</strong> 155 Rs</p>
+    <p><strong>मूळ देश:</strong> भारत</p>
+    <p><strong>Mkt द्वारे:</strong> जॉन्सन अँड जॉन्सन प्रायव्हेट लिमिटेड</p>
+
+    <!-- Image Carousel -->
+    <div class="image-gallery">
+        <div class="carousel">
+            <div class="carousel-track">
+                <img src="cupsyrup1.png" alt="Cough Syrup Bottle 1" class="carousel-img">
+                <img src="cupsyrup2.png" alt="Cough Syrup Bottle 2" class="carousel-img">
+                <img src="cupsyrup3.png" alt="Cough Syrup Bottle 3" class="carousel-img">
+            </div>
+        </div>
+        <div class="carousel-controls">
+            <span class="prev">&lt;</span>
+            <span class="next">&gt;</span>
+        </div>
+    </div>
+</section>
+
+<script>
+    const track = document.querySelector('.carousel-track');
+const slides = Array.from(track.children);
+const nextButton = document.querySelector('.next');
+const prevButton = document.querySelector('.prev');
+let currentIndex = 0;
+
+// Move to the next slide
+nextButton.addEventListener('click', () => {
+    currentIndex = (currentIndex + 1) % slides.length;
+    track.style.transform = `translateX(-${currentIndex * 100}%)`;
+});
+
+// Move to the previous slide
+prevButton.addEventListener('click', () => {
+    currentIndex = (currentIndex - 1 + slides.length) % slides.length;
+    track.style.transform = `translateX(-${currentIndex * 100}%)`;
+});
+
+</script>
+    
+    
+<section id="benefits">
+    <h1>बेनाड्रिल सिरपचे फायदे</h1>
+    <audio controls>
+        <source src="Benifits.wav" type="audio/mp3">
+        Your browser does not support the audio tag.
+    </audio>
+    <p>Benadryl सिरपचा वापर खोकल्याच्या उपचारात केला जातो. हे नाक वाहणे, शिंका येणे, पाणी येणे यासारख्या ऍलर्जीच्या लक्षणांपासून आराम देते. हे नाक, श्वासनलिका आणि फुफ्फुसातील श्लेष्मा देखील पातळ करते, ज्यामुळे खोकला सुलभ होतो.</p>
+    
+    <!-- Image Gallery with Animations -->
+    <div class="benefits-gallery">
+        <div class="benefit-card">
+            <img src="benefit1.jpg" alt="Benefit 1" class="benefit-img">
+            <p>Benefit 1</p>
+        </div>
+        <div class="benefit-card">
+            <img src="benefit3.jpg" alt="Benefit 2" class="benefit-img">
+            <p>Benefit 2</p>
+        </div>
+        <div class="benefit-card">
+            <img src="benefit2.jpg" alt="Benefit 3" class="benefit-img">
+            <p>Benefit 3</p>
+        </div>
+        <div class="benefit-card">
+            <img src="benefit4.jpg" alt="Benefit 4" class="benefit-img">
+            <p>Benefit 4</p>
+        </div>
+        <div class="benefit-card">
+            <img src="benefit5.jpg" alt="Benefit 5" class="benefit-img">
+            <p>Benefit 5</p>
+        </div>
+    </div>
+</section>
+
+    
+
+    <section id="when-to-take">
+        <h1>Benadryl Syrup कधी घ्यावे?</h1>
+         
+        <p>हे खोकला कमी करण्यास आणि घसा आणि फुफ्फुसातील श्लेष्मा साफ करण्यास मदत करते.</p>
+    
+        <h2>खोकल्याच्या उपचारासाठी:</h2>
+        <p>खोकला म्हणजे अचानक, जबरदस्तीने हवेतून बाहेर काढणे ज्यामुळे घशातील किंवा श्वासनलिकेतील कोणताही श्लेष्मा (घशातील चिकट, पांढरा, घन द्रवपदार्थ) किंवा नाकातून हवेतून शरीरात गेलेली धूळ साफ होण्यास मदत होते. काही विशिष्ट रोगांमुळे (जसे की दमा) किंवा ऍलर्जीमुळे हे वारंवार होत असल्यास, ते त्रासदायक असू शकते.</p>
+    
+        <p>Benadryl Syrup जाड श्लेष्मा सोडण्यात मदत करते आणि त्याची चिकटपणा कमी करते, ज्यामुळे खोकला बाहेर येणे सोपे होते. त्यामुळे हवा आत आणि बाहेर जाणे सोपे होते. हे ऍलर्जीच्या लक्षणांपासून देखील आराम देईल, जसे की पाणी येणे, शिंका येणे, नाक वाहणे किंवा घशाची जळजळ, आणि तुम्हाला तुमची दैनंदिन कामे अधिक सहजतेने पार पाडण्यास मदत करेल. हे औषध घेतल्याने तुमची लक्षणे कमी करणाऱ्या गोष्टींबद्दल जास्त काळजी न करता तुमचे जीवन अधिक मुक्तपणे जगता येते.</p>
+        
+    </section>
+    
+
+    <section id="how-to-take">
+        <h1>Benadryl Syrup कसे घ्यावे</h1>
+        
+        
+        <p>Benadryl Syrup च्या योग्य डोस आणि प्रशासनासाठी या मार्गदर्शक तत्त्वांचे अनुसरण करा:</p>
+        
+        <h2>डोस शिफारसी:</h2>
+        <ul>
+            <li>४-६ वर्षे वयाच्या मुलांसाठी: अर्धा चमचा (२.५ मि.ली.)</li>
+            <li>६-१२ वर्षे वयाच्या मुलांसाठी: एक चमचा (५ मि.ली.)</li>
+            <li>प्रौढांसाठी (१२ वर्षे आणि त्याहून मोठे): दोन चमचे (१० मि.ली.)</li>
+            
+        </ul>
+    
+        <h2>अ‍ॅडमिनिस्ट्रेशन सूचना:</h2>
+        <ol>
+            <li>बेनाड्रिल सिरप डॉक्टरांच्या सूचनेप्रमाणे अन्नासोबत किंवा अन्नाशिवाय घेतला जाऊ शकतो.</li>
+            <li>प्रत्येक वापराआधी बाटली चांगली ढवळा. सिरपसह दिलेल्या मोजणीच्या कपाने डोस मोजा.</li>
+            <li>सिरप पाण्यासोबत घ्या, ज्यामुळे तो सोप्या पद्धतीने गिळता येईल.</li>
+        </ol>
+        
+    
+        <h2>डोस मर्यादा:</h2>
+<p>
+    <strong>सावधानता:</strong> या औषधाचे ४ वर्षांखालील मुलांना देऊ नका. 
+    दैनिक डोस खालील मर्यादांपेक्षा जास्त नसावा याची खात्री करा:
+</p>
+<ul>
+    <li>४-६ वर्षे वयाच्या मुलांसाठी: दररोज कमाल १५ मि.ली. (३ डोस)</li>
+    <li>६-१२ वर्षे वयाच्या मुलांसाठी: दररोज कमाल ३० मि.ली. (६ डोस)</li>
+    <li>प्रौढांसाठी (१२ वर्षे आणि त्याहून मोठे): दररोज कमाल ६० मि.ली. (६ डोस)</li>
+</ul>
+
+<h2>आवृत्ती:</h2>
+<p>औषध प्रत्येक ४ तासांनी किंवा डॉक्टरांच्या सूचनेप्रमाणे घ्या.</p>
+    </section>
+    
+
+    <section id="side-effects">
+        <h1>सामान्य साइड इफेक्ट्स</h1>
+        <div class="side-effects-grid">
+            <div class="side-effect-card">
+                <img src="side1.jpg" alt="Abdominal Pain" class="side-effect-img">
+                <p>पोटदुखी</p>
+            </div>
+            <div class="side-effect-card">
+                <img src="side2.jpg" alt="Dizziness" class="side-effect-img">
+                <p>चक्कर येणे</p>
+            </div>
+            <div class="side-effect-card">
+                <img src="side3.jpg" alt="Drowsiness" class="side-effect-img">
+                <p>तंद्री</p>
+            </div>
+            <div class="side-effect-card">
+                <img src="side4.jpg" alt="Poor Coordination" class="side-effect-img">
+                <p>खराब समन्वय (एकाग्र करण्यात अडचण)</p>
+            </div>
+            <div class="side-effect-card">
+                <img src="benefit1.jpg" alt="Runny Nose" class="side-effect-img">
+                <p>ऍलर्जीक प्रतिक्रिया</p>
+            </div>
+            <div class="side-effect-card">
+                <img src="benefit2.jpg" alt="Allergic Reaction" class="side-effect-img">
+                <p>वाहणारे नाक (तोंडातून जाड द्रव बाहेर येणे)</p>
+            </div>
+        </div>
+        <p class="note">यापैकी बहुतेक दुष्परिणाम तात्पुरते असतात आणि त्यांना कोणत्याही वैद्यकीय मदतीची आवश्यकता नसते. ते कायम राहिल्यास किंवा तुम्हाला त्यांच्याबद्दल काळजी वाटत असल्यास, तुमच्या डॉक्टरांचा सल्ला घ्या.</p>
+    </section>
+    
+    
+    <section id="what-to-do">
+        <h1>काय करावे</h1>
+        <audio controls>
+            <source src="what to do.wav" type="audio/mp3">
+            तुमचा ब्राउझर ऑडिओ टॅगला समर्थन देत नाही.
+        </audio>
+        <ul>
+            <li><strong>तुमच्या डॉक्टरांना सांगा:</strong> तुम्ही घेत असलेल्या सर्व इतर औषधांबद्दल तुमच्या डॉक्टरांना माहिती द्या, कारण काही औषधे अप्रियपणे एकत्रित होऊ शकतात.</li>
+            <li><strong>हायड्रेटेड रहा:</strong> घशातील त्रास कमी करण्यासाठी भरपूर द्रवपदार्थ प्या.</li>
+            <li><strong>तुमच्या डॉक्टरांशी संपर्क साधा:</strong> तुम्हाला यकृत किंवा मूळव्याध आहे का, गर्भवती आहात का किंवा बाळ देत आहात का हे तुमच्या डॉक्टरांना सांगा.</li>
+            <li><strong>रक्तातील ग्लुकोज देखरेख करा:</strong> तुम्हाला मधुमेह असल्यास, हे औषध घेत असताना नियमितपणे तुमच्या रक्तातील ग्लुकोजची तपासणी करा.</li>
+            <li><strong>तुमचा इतिहास सांगा:</strong> तुम्हाला थायरॉइड किंवा हृदयाची आजार असली तर तुमच्या डॉक्टरांना माहिती द्या.</li>
+            <li><strong>लक्षणांची देखरेख करा:</strong> तुमचा खोकला एका आठवड्यापेक्षा अधिक काळ टिकत असेल, किंवा ताप, पुरळ किंवा कायमच्या डोकेदुखीने सोबत असेल तर बेनाड्रिल सिरप घेणे थांबवा.</li>
+        </ul>
+    </section>
+    
+    
+    <section id="what-not-to-do">
+        <h1>काय करू नये</h1>
+         
+        <ul>
+            <li><strong>औषध थांबवू नका:</strong> तुमच्या डॉक्टरांच्या सल्ल्याशिवाय या औषधाचा वापर थांबवू नका, कारण लक्षणे पुन्हा दिसू शकतात किंवा ती वाढू शकतात.</li>
+            <li><strong>स्वतःवर उपचार टाळा:</strong> डॉक्टरांचा सल्ला न घेता या औषधाचा स्वतःवर वापर करू नका किंवा इतर कोणालाही ते घेण्यास सुचवू नका.</li>
+        </ul>
+    </section>
+    
+    <footer>
+        <p>&copy; 2024 Yashodip More - NonCSCoder. All rights reserved.</p>
+    </footer>
+    <script>
+        // JavaScript for scroll animations
+document.addEventListener("DOMContentLoaded", function () {
+    const sections = document.querySelectorAll("section");
+
+    const options = {
+        root: null,
+        rootMargin: "0px",
+        threshold: 0.1,
+    };
+
+    const observer = new IntersectionObserver((entries, observer) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                entry.target.classList.add("fade-in");
+                observer.unobserve(entry.target);
+            }
+        });
+    }, options);
+
+    sections.forEach(section => {
+        observer.observe(section);
+    });
+});
+
+    </script>
+
+</body>
+</html>

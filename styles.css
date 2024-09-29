@@ -1,0 +1,108 @@
+/* Universal Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    /* Updated background to a gradient */
+    background: linear-gradient(135deg, #e0eafc, #cfdef3); /* Light blue gradient */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Main Container for Logo and Language Selection */
+.language-selection-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ffffff; /* Keep white for contrast */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    max-width: 500px;
+}
+
+/* Logo Styling */
+.logo img {
+    width: 150px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+/* Language Selection Styling */
+.language-selection {
+    text-align: center;
+    width: 100%;
+}
+
+.language-selection h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Language Button List */
+.language-selection ul {
+    list-style: none;
+    padding: 0;
+}
+
+.language-selection ul li {
+    margin: 10px 0;
+}
+
+.language-selection ul li a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #007bff;
+    padding: 12px 30px;
+    border: 2px solid #007bff;
+    border-radius: 5px;
+    display: inline-block;
+    transition: background-color 0.3s, color 0.3s;
+    width: 100%;
+    max-width: 200px;
+}
+
+/* Updated Hover Effect */
+.language-selection ul li a:hover {
+    background-color: #0056b3; /* Darker blue for hover */
+    color: white;
+}
+
+/* Responsive Design for Smaller Screens */
+@media (max-width: 600px) {
+    .language-selection h1 {
+        font-size: 20px;
+    }
+
+    .language-selection ul li a {
+        font-size: 16px;
+        padding: 10px 20px;
+    }
+}
+
+/* Additional Style for Very Small Screens */
+@media (max-width: 400px) {
+    .logo img {
+        width: 120px;
+    }
+
+    .language-selection h1 {
+        font-size: 18px;
+    }
+
+    .language-selection ul li a {
+        font-size: 14px;
+        padding: 8px 16px;
+    }
+}
+
+
